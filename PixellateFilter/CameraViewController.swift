@@ -346,22 +346,7 @@ class CameraViewController: UIViewController,UINavigationControllerDelegate,AVCa
 
                 }
             }
-//            updatePreviewLayer(layer: previewLayerConnection, orientation: .portrait)
-//            if !AHDeviceHardware.deviceIsPhone(){
-//                if previewLayerConnection.isVideoOrientationSupported {
-//
-//                    switch (orientation) {
-//                    case .portrait: updatePreviewLayer(layer: previewLayerConnection, orientation: .portrait)
-//                    case .landscapeRight: updatePreviewLayer(layer: previewLayerConnection, orientation: .landscapeLeft)
-//                    case .landscapeLeft: updatePreviewLayer(layer: previewLayerConnection, orientation: .landscapeRight)
-//                    case .portraitUpsideDown: updatePreviewLayer(layer: previewLayerConnection, orientation: .portraitUpsideDown)
-//                    default: updatePreviewLayer(layer: previewLayerConnection, orientation: .portrait)
-//
-//                    }
-//                }
-//            }else{
-//                updatePreviewLayer(layer: previewLayerConnection, orientation: .portrait)
-//            }
+
             
         }
     }
